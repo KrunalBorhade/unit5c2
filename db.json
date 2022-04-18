@@ -97,6 +97,38 @@
       "tenth_score": "60",
       "twelth_score": "60",
       "id": 9
+    },
+    {
+      "first_name": "abc",
+      "last_name": "abc",
+      "email": "abc@gmail.com",
+      "gender": "male",
+      "age": "21",
+      "tenth_score": "80",
+      "twelth_score": "75",
+      "id": 10
+    },
+    {
+      "first_name": "xyz",
+      "last_name": "zyx",
+      "email": "xyz@gmail.com",
+      "gender": "male",
+      "age": "21",
+      "tenth_score": "90",
+      "twelth_score": "80",
+      "preferred_branch": "science",
+      "id": 11
+    },
+    {
+      "first_name": "k",
+      "last_name": "b",
+      "email": "k@gmail.com",
+      "gender": "male",
+      "age": "21",
+      "tenth_score": "93",
+      "twelth_score": "93",
+      "preferred_branch": "acting",
+      "id": 12
     }
   ]
 }

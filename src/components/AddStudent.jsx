@@ -1,5 +1,5 @@
 import {useState} from "react"
-
+import "./AddStudent.css" 
 
 export const AddStudent = () => {
   const [studentData, setStudentData] = useState([]);
@@ -34,6 +34,7 @@ export const AddStudent = () => {
           name="first_name"
           className="first_name"
           placeholder="enter first name"
+          required
         />
       </div>
       <div>
@@ -45,6 +46,7 @@ export const AddStudent = () => {
           name="last_name"
           className="last_name"
           placeholder="enter last name"
+          required
         />
       </div>
       <div>
@@ -56,6 +58,7 @@ export const AddStudent = () => {
           name="email"
           className="email"
           placeholder="enter email"
+          required
         />
       </div>
 
@@ -88,6 +91,8 @@ export const AddStudent = () => {
           name="age"
           className="age"
           placeholder="enter age"
+          required
+          max={50}
         />
       </div>
       <div>
@@ -98,6 +103,8 @@ export const AddStudent = () => {
           name="tenth_score"
           className="tenth_score"
           placeholder="enter 10th score"
+          required
+          max={100}
         />{" "}
       </div>
       <div>
@@ -108,6 +115,8 @@ export const AddStudent = () => {
           name="twelth_score"
           className="twelth_score"
           placeholder="enter 12th score"
+          required
+          max={100}
         />{" "}
       </div>
       <div>
@@ -115,8 +124,10 @@ export const AddStudent = () => {
           value={""} // select dropdown needs both value and onChange attributes
           name="preferred_branch"
           className="preferred_branch"
+          onChange={handleChange}
+          required
         >
-          <option value="law">law</option>
+          <option value="law" >law</option>
           <option value="commerce">commerce</option>
           <option value="science">science</option>
           <option value="sports">sports</option>
